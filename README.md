@@ -13,6 +13,9 @@ Original code was taken from [esx_trunk](https://github.com/schwim0341/esx_trunk
 - Weapons support
 - Fully configurable 
 - Locale files included
+- Weight System Support from essentialmode DB
+- Minor Bugs Fixed
+- ES Locale Added
 
 ## Screens
 * [https://i.imgur.com/5jPPBe9.png](https://i.imgur.com/5jPPBe9.png)
@@ -22,11 +25,11 @@ Original code was taken from [esx_trunk](https://github.com/schwim0341/esx_trunk
 ### Using Git
 ```
 cd resources
-git clone https://github.com/Trsak/esx_inventoryhud_trunk [esx]/esx_inventoryhud_trunk
+git clone https://github.com/GMA950/esx_inventoryhud_trunk [esx]/esx_inventoryhud_trunk
 ```
 
 ### Manually
-- Download https://github.com/Trsak/esx_inventoryhud_trunk/archive/master.zip
+- Download https://github.com/GMA950/esx_inventoryhud_trunk/archive/master.zip
 - Put it in the `[esx]` directory
 
 ## Installation
@@ -35,3 +38,5 @@ git clone https://github.com/Trsak/esx_inventoryhud_trunk [esx]/esx_inventoryhud
 ```
 start esx_inventoryhud_trunk
 ```
+
+## Default Open Key is "M"
