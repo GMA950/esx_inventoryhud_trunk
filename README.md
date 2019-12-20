@@ -1,4 +1,22 @@
+# FIRST, VERY IMPORTANT
+
+add this fragment of code into your functions.lua here \resources\es_extended\server\functions.lua or wherever
+you have placed your es_extended resource
+
+* Under line 163
+
+```lua
+ESX.GetItemWeight = function(item)
+	if ESX.Items[item] ~= nil then
+		return ESX.Items[item].weight
+	end
+end
+```
+
 # esx_inventoryhud_trunk 1.0
+
+
+
 This is an vehicle trunk addon for [esx_inventoryhud](https://github.com/Trsak/esx_inventoryhud/).
 Original code was taken from [esx_trunk](https://github.com/schwim0341/esx_trunk) modified by schwim0341.
 
